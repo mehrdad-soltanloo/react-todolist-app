@@ -1,0 +1,104 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", serif;
+}
+
+/* General container styling */
+.todo-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 6.4rem auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  color: #333;
+  font-size: 2.6rem;
+  text-transform: capitalize;
+  margin-bottom: 2.6rem;
+}
+
+/* Task input styling */
+.task-input {
+  padding: 1.2rem;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  transition: border-color 0.3s;
+}
+
+.task-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Add task button styling */
+.add-task-btn {
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-task-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Task list styling */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.task-item {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+/* Hover effect on task items */
+.task-item:hover {
+  transform: scale(1.02);
+}
+
+/* Remove task button styling */
+.remove-btn {
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+  background-color: #ff1a1a;
+}
